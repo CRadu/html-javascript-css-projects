@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Todo List</title>
+<link rel = "stylesheet" href = "./style.css">
+</head>
+<body>
+<center><h2>Todo List</h2>
+<table id = "tabl" >
+<thead>
+ <tr>
+    <th>No</th>
+    <th>ToDo</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td>1</td><td>Arata-ti pula!</td><br><br>
+	<tr>
+    <td>2</td><td>Caca-te in sus!</td><br><br>
+	</tbody>
+	
+<table>
+</table>
+<br><br>
+<form id = "frm">
+<label> New todo: </label>
+<input id = "todo" type="text"></input><br><br>
+
+<button id = "submit" type = "button" onclick = "getTodo()"; >Add</button>
+<input type="button" id="button2" value="Display" onclick="display_array();"></input>
+<button id = "sort" type = "button" onclick = "tableDisplay()">Sort list</button>
+</form><center>
+<p id = "showArr"></p>
+
+</table><center>
+</body>
+<script type = "text/javascript" src = "fct.js"></script>
+</html>

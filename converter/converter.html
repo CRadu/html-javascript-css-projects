@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Unit convertor</title>
+<link rel = "stylesheet" href = "./style.css"></link>
+</head>
+<body>
+<div id = "converterPannel">
+<h2>Unit converter</h2><br><br>
+
+<label>Enter value: </label>
+<input id ="inputValue" type = "Number" required></input><br><br>
+
+<label>Select units: </label>
+<select id = "unit">
+ <option value = "0">Miles to Km</option>
+ <option value = "1">Inches to Cm</option>
+ <option value = "2">Fahrenheit to Celsius</option>
+
+</select><br>
+
+<button id = "convert" type = "submit" onclick = "convert()">Convert!</button>
+<p  class = "p-inline" id = "result"></p>
+
+</div>
+
+<script rel = "text/javascript" src = "fct.js"></script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+body{
+
+	
+	background-color: #311291;
+}
+
+#notesPannel{
+	position: relative;
+	left:40%;
+	top:30px;
+	background-color:#ebdab9;	
+	width: 400px;
+	height: 550px;
+	padding: 10px;
+	border-radius: 15px;
+}
+
+h2{
+	text-align: center;
+	
+}
+input{
+	width: 280px;
+}
+#listNotes{
+	position: relative;
+	float: right;
+}

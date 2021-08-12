@@ -1,0 +1,30 @@
+body{
+	background-color: #59605D;
+}
+#converterPannel{
+	position: relative;
+	left: 40%;
+	width: 300px;
+	height: 400px;
+	padding: 20px;
+	background-color:#16AF70;
+	border-radius: 15px;
+}
+h2{
+	text-align: center;
+}
+input{
+	width: 160px;
+}
+select{
+	width: 168px;
+}
+
+p{  
+	width: 165px;
+	position: relative;
+	display: inline-block;
+	background-color: white;
+	left:15px;
+}
+

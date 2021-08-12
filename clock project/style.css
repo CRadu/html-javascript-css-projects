@@ -1,0 +1,22 @@
+body{
+	background-color: powderblue;
+}
+h2{
+	text-align: center;
+	
+}
+#clock{
+	text-align: center;
+}	
+#myMenu{
+	
+	text-align: center;
+	margin-left: auto;
+    margin-right: auto;
+	
+	left: 45%;
+	border-radius: 15px;
+	width: 200px;
+	height: 300px;
+	background-color: orange;
+}

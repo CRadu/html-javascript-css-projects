@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Simple Calculator</title>
+<link rel = "stylesheet" href = "./style.css"></link>
+</head>
+<body>
+<div id = "calc">
+<h2>Please enter values & operation</h2><br><br>
+
+<label>First Value</label><br>
+<input id = "fValue" type = "number"></input><br>
+
+<label>Second Value</label><br>
+<input id = "sValue" type = "number"></input><br>
+
+<label>Operatio</label><br>
+<select id = "operationSelector" type = "text">
+<option value = "0">-</option>
+<option value = "1">+</option>
+<option value = "2">*</option>
+<option value = "3">/</option>
+<option value = "4">%</option>
+</select>
+
+<button id = "calulate" type = "submit" onclick = "calculateResult()">Show result!</button>
+<h3>Result is: <text id = "result"></text></h3>
+
+</div>
+<script rel = "text/javascript" src = "fct.js"></script>
+</body>
+</html>
